@@ -5,7 +5,7 @@ int main(){
     //criando as variaveis para carta 1 e 2
     int populacao1, NumeroPontoTuristico1, populacao2, NumeroPontoTuristico2;
     char estado1, estado2;
-    char nomeCidade1[50], codigoDaCarta1[50], nomeCidade2[50], codigoDaCarta2[50];
+    char nomeCidade1[50], codigoDaCarta1[5], nomeCidade2[50], codigoDaCarta2[5];
     float area1, pib1, area2, pib2;
 
     
@@ -13,25 +13,25 @@ int main(){
     printf("Insira os dados da carta 1:\n");
     
     //Dados para carta 1
-    printf("Insira o Estado para carta 1: "); //pedindo ao usuário para digitar o dado requerido
+    printf("Digite uma letra de A-H para a carta 1 (representando um dos oito estados): "); //pedindo ao usuário para digitar o dado requerido
     scanf("%c", &estado1); //Leitura do dado digitado
 
-    printf("Insira o codigo do Estado para carta 1: "); 
+    printf("Insira o codigo do Estado para carta 1 (ex: A01,B02..): "); 
     scanf("%s", &codigoDaCarta1);
 
-    printf("Insira o nome da cidade da carta 1: ");
+    printf("Insira o nome da cidade para carta 1: ");
     scanf("%s", &nomeCidade1);
 
-    printf("Insira a População da Cidade da carta 1: ");
+    printf("Insira a População da Cidade para carta 1: ");
     scanf("%d", &populacao1);
 
-    printf("Insira a Área da Cidade da carta 1: ");
+    printf("Insira a Área da Cidade em km² da carta 1: ");
     scanf("%f", &area1);
 
-    printf("Insira o PIB da Cidade da carta 1: ");
+    printf("Insira o PIB da Cidade para carta 1: ");
     scanf("%f", &pib1);
 
-    printf("Insira o número de pontos turísticos da Cidade da carta 1: ");
+    printf("Insira o número de pontos turísticos da Cidade para carta 1: ");
     scanf("%d", &NumeroPontoTuristico1);
     //fim da leitura de dados da carta 1
     
@@ -41,25 +41,25 @@ int main(){
     printf("\nInsira os dados da carta 2:\n");
     
     //Dados para carta 2
-    printf("Insira o Estado para carta 2: "); //pedindo ao usuário para digitar o dado requerido
+    printf("Digite uma letra de A-H para a carta 2 (representando um dos oito estados): "); //pedindo ao usuário para digitar o dado requerido
     scanf(" %c", &estado2); //Leitura do dado digitado
 
-    printf("Insira o codigo do Estado para carta 2: "); 
+    printf("Insira o codigo do Estado para carta 2 (ex: A01,B02..): "); 
     scanf("%s", &codigoDaCarta2);
 
-    printf("Insira o nome da cidade da carta 2: ");
+    printf("Insira o nome da cidade para carta 2: ");
     scanf("%s", &nomeCidade2);
 
-    printf("Insira a População da Cidade da carta 2: ");
+    printf("Insira a População da Cidade para carta 2: ");
     scanf("%d", &populacao2);
 
-    printf("Insira a Área da Cidade da carta 2: ");
+    printf("Insira a Área da Cidade em km² da carta 2: ");
     scanf("%f", &area2);
 
-    printf("Insira o PIB da Cidade da carta 2: ");
+    printf("Insira o PIB da Cidade para carta 2: ");
     scanf("%f", &pib2);
 
-    printf("Insira o número de pontos turísticos da Cidade da carta 2: ");
+    printf("Insira o número de pontos turísticos da Cidade para carta 2: ");
     scanf("%d", &NumeroPontoTuristico2);
     //fim da leitura de dados da carta 2
     
